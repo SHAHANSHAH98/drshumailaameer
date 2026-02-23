@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. MedicalPress | Professional Healthcare</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* --- GLOBAL STYLES --- */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Open Sans', sans-serif; color: #444; line-height: 1.6; }
+        h1, h2, h3, h4 { font-family: 'Montserrat', sans-serif; text-transform: uppercase; }
+        a { text-decoration: none; transition: 0.3s; }
+        ul { list-style: none; }
+
+        /* --- FOOTER SECTION (Image 3 Reference) --- */
+        .footer { background: #1a2b3c; color: #bdc3c7; padding: 80px 10% 20px; }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; }
+        .footer h3, .footer h4 { color: white; margin-bottom: 25px; font-size: 18px; }
+        .footer h3 span { color: #0399d9; }
+        .footer p { font-size: 14px; margin-bottom: 15px; }
+        .footer a { color: #bdc3c7; font-size: 14px; display: block; margin-bottom: 10px; }
+        .footer a:hover { color: #5bc0de; }
+        .copyright { border-top: 1px solid rgba(255,255,255,0.1); margin-top: 50px; padding-top: 20px; text-align: center; font-size: 13px; }
+
+        /* --- RESPONSIVENESS --- */
+        @media (max-width: 1024px) {
+            .hero-content h1 { font-size: 32px; }
+            .app-form { grid-template-columns: repeat(2, 1fr); }
+            .about, .footer-grid { flex-direction: column; grid-template-columns: 1fr; }
+            .about-images { justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>Dr. Medical<span>Press</span></h3>
+                <p>Providing trusted and compassionate healthcare services with a focus on clinical excellence and patient well-being.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Services</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Appointment</a>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <a href="#">Cardiology</a>
+                <a href="#">Pediatrics</a>
+                <a href="#">Dental Care</a>
+                <a href="#">Emergency Care</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <p>Hassa street 391093, Dubai</p>
+                <p>Phone: +971 800 2211</p>
+                <p>Email: info@drname.com</p>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 Dr. MedicalPress. All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
